@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ov2slam.dir/src/camera_calibration.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/camera_calibration.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/camera_visualizer.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/camera_visualizer.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/ceres_parametrization.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/ceres_parametrization.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/estimator.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/estimator.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/feature_extractor.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/feature_extractor.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/feature_tracker.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/feature_tracker.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/frame.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/frame.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/loop_closer.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/loop_closer.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/map_manager.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/map_manager.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/map_point.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/map_point.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/mapper.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/mapper.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/multi_view_geometry.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/multi_view_geometry.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/optimizer.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/optimizer.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/ov2slam.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/ov2slam.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/slam_params.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/slam_params.cpp.o.d"
+  "CMakeFiles/ov2slam.dir/src/visual_front_end.cpp.o"
+  "CMakeFiles/ov2slam.dir/src/visual_front_end.cpp.o.d"
+  "libov2slam.pdb"
+  "libov2slam.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ov2slam.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (kobuki_node) JobQueued: {'identifier': 'kobuki_node', 'dependencies': OrderedDict()}
+[0.000287] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.000321] (controller_launcher) JobQueued: {'identifier': 'controller_launcher', 'dependencies': OrderedDict([('kobuki_node', '/home/imr/jauremax_ros2/src/install/kobuki_node'), ('teleop_twist_joy', '/home/imr/jauremax_ros2/src/install/teleop_twist_joy')])}
+[0.000916] (kobuki_node) JobStarted: {'identifier': 'kobuki_node'}
+[0.009999] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.016651] (kobuki_node) JobProgress: {'identifier': 'kobuki_node', 'progress': 'cmake'}
+[0.017255] (kobuki_node) Command: {'cmd': ['/usr/bin/cmake', '/home/imr/jauremax_ros2/src/kobuki_node', '-DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/kobuki_node'], 'cwd': '/home/imr/jauremax_ros2/src/build/kobuki_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/jauremax_ros2/install/librealsense2/lib:/home/imr/jauremax_ros2/install/kobuki_node/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr/jauremax_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '1832'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/jauremax_ros2/src/install:/home/imr/jauremax_ros2/install:/home/imr/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/jauremax_ros2/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/jauremax_ros2/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/jauremax_ros2/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/1733,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/1733'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09163618_8518_4e3d_a5d5_77ba4fcb86a9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.72JW72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/jauremax_ros2/src/build/kobuki_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/librealsense2:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble')]), 'shell': False}
+[0.021837] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.022526] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/imr/jauremax_ros2/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/teleop_twist_joy'], 'cwd': '/home/imr/jauremax_ros2/src/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/jauremax_ros2/install/librealsense2/lib:/home/imr/jauremax_ros2/install/kobuki_node/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr/jauremax_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '1832'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/jauremax_ros2/src/install:/home/imr/jauremax_ros2/install:/home/imr/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/jauremax_ros2/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/jauremax_ros2/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/jauremax_ros2/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/1733,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/1733'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09163618_8518_4e3d_a5d5_77ba4fcb86a9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.72JW72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/jauremax_ros2/src/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/librealsense2:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble')]), 'shell': False}
+[0.096143] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096497] (kobuki_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099724] (-) TimerEvent: {}
+[0.170134] (kobuki_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.171413] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.181781] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.181981] (kobuki_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199839] (-) TimerEvent: {}
+[0.254757] (kobuki_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.254974] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.262751] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263329] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.263933] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.264583] (kobuki_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.264897] (kobuki_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265576] (kobuki_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.267570] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.269491] (kobuki_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299990] (-) TimerEvent: {}
+[0.352130] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.356977] (kobuki_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.365610] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.366029] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.366795] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.371932] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.373899] (kobuki_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.374319] (kobuki_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.374853] (kobuki_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.377603] (kobuki_node) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400081] (-) TimerEvent: {}
+[0.500374] (-) TimerEvent: {}
+[0.600658] (-) TimerEvent: {}
+[0.700940] (-) TimerEvent: {}
+[0.801200] (-) TimerEvent: {}
+[0.901482] (-) TimerEvent: {}
+[1.001772] (-) TimerEvent: {}
+[1.102056] (-) TimerEvent: {}
+[1.144314] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.184877] (kobuki_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.202157] (-) TimerEvent: {}
+[1.268052] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.297601] (kobuki_node) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[1.300979] (kobuki_node) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[1.302182] (-) TimerEvent: {}
+[1.317008] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.323593] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.334539] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.348587] (kobuki_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.349415] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.356008] (kobuki_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.366313] (kobuki_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.368506] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.381176] (kobuki_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401519] (kobuki_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402262] (-) TimerEvent: {}
+[1.414023] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.449703] (kobuki_node) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[1.461891] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.465300] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501956] (kobuki_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.502335] (-) TimerEvent: {}
+[1.505561] (kobuki_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.563940] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.595125] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602435] (-) TimerEvent: {}
+[1.610627] (kobuki_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.647961] (kobuki_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.652267] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.667462] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.695338] (kobuki_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.702538] (-) TimerEvent: {}
+[1.707046] (kobuki_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.745333] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.745698] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.782332] (kobuki_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.782628] (kobuki_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.802637] (-) TimerEvent: {}
+[1.823926] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.825299] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.859288] (kobuki_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.860440] (kobuki_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.882044] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.902731] (-) TimerEvent: {}
+[1.909870] (kobuki_node) StdoutLine: {'line': b'-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)\n'}
+[1.916285] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.918136] (kobuki_node) StdoutLine: {'line': b'-- Found ecl_errors: 1.2.0 (/opt/ros/humble/share/ecl_errors/cmake)\n'}
+[1.925554] (kobuki_node) StdoutLine: {'line': b'-- Found ecl_exceptions: 1.2.1 (/opt/ros/humble/share/ecl_exceptions/cmake)\n'}
+[1.939512] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[1.940544] (kobuki_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[1.940754] (kobuki_node) StderrLine: {'line': b'  By not providing "Findecl_geometry.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.940878] (kobuki_node) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.941000] (kobuki_node) StderrLine: {'line': b'  "ecl_geometry", but CMake did not find one.\n'}
+[1.941104] (kobuki_node) StderrLine: {'line': b'\n'}
+[1.941230] (kobuki_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "ecl_geometry" with\n'}
+[1.941413] (kobuki_node) StderrLine: {'line': b'  any of the following names:\n'}
+[1.941514] (kobuki_node) StderrLine: {'line': b'\n'}
+[1.941625] (kobuki_node) StderrLine: {'line': b'    ecl_geometryConfig.cmake\n'}
+[1.941737] (kobuki_node) StderrLine: {'line': b'    ecl_geometry-config.cmake\n'}
+[1.941846] (kobuki_node) StderrLine: {'line': b'\n'}
+[1.941941] (kobuki_node) StderrLine: {'line': b'  Add the installation prefix of "ecl_geometry" to CMAKE_PREFIX_PATH or set\n'}
+[1.942050] (kobuki_node) StderrLine: {'line': b'  "ecl_geometry_DIR" to a directory containing one of the above files.  If\n'}
+[1.942144] (kobuki_node) StderrLine: {'line': b'  "ecl_geometry" provides a separate development package or SDK, be sure it\n'}
+[1.942260] (kobuki_node) StderrLine: {'line': b'  has been installed.\n'}
+[1.942406] (kobuki_node) StderrLine: {'line': b'\n'}
+[1.942512] (kobuki_node) StderrLine: {'line': b'\x1b[0m\n'}
+[1.942615] (kobuki_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.942725] (kobuki_node) StdoutLine: {'line': b'See also "/home/imr/jauremax_ros2/src/build/kobuki_node/CMakeFiles/CMakeOutput.log".\n'}
+[1.952295] (kobuki_node) CommandEnded: {'returncode': 1}
+[1.973100] (kobuki_node) JobEnded: {'identifier': 'kobuki_node', 'rc': 1}
+[2.002855] (-) TimerEvent: {}
+[2.027153] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[2.027950] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[2.102969] (-) TimerEvent: {}
+[2.112536] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[2.112932] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[2.197678] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[2.202045] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.203063] (-) TimerEvent: {}
+[2.303286] (-) TimerEvent: {}
+[2.305586] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.330271] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.336868] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.337185] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.337339] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.337473] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.362636] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.386734] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.386982] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/imr/jauremax_ros2/src/teleop_twist_joy/include>\n'}
+[2.387178] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.392024] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.392199] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.393234] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.394952] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.396072] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.400929] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.401100] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.402101] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.403359] (-) TimerEvent: {}
+[2.405503] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.421751] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[2.427746] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/imr/jauremax_ros2/src/build/teleop_twist_joy\n'}
+[2.441413] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 'SIGINT'}
+[2.452038] (controller_launcher) JobSkipped: {'identifier': 'controller_launcher'}
+[2.452120] (-) EventReactorShutdown: {}

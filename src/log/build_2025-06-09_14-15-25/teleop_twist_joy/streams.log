@@ -1,0 +1,7 @@
+[0.027s] Invoking command in '/home/imr/jauremax_ros2/src/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --build /home/imr/jauremax_ros2/src/build/teleop_twist_joy -- -j4 -l4
+[0.081s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[10.832s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[11.330s] [ 50%] Built target teleop_twist_joy
+[11.352s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[14.465s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[14.705s] [100%] Built target teleop_twist_joy_node

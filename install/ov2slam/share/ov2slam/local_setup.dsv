@@ -1,0 +1,2 @@
+source;share/ov2slam/environment/ament_prefix_path.sh
+source;share/ov2slam/environment/path.sh

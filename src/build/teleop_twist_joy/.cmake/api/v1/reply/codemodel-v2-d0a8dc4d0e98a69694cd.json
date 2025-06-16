@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-89b4ea2a651e4b4679a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "teleop_twist_joy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_twist_joy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_twist_joy-7e6bd79e5cc1df66bd69.json",
+					"name" : "teleop_twist_joy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_twist_joy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_twist_joy_node-8377d0e848968f0ff87a.json",
+					"name" : "teleop_twist_joy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_twist_joy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_twist_joy_uninstall-4fb63806054313f80dbf.json",
+					"name" : "teleop_twist_joy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0d056422a4b2bd4d7064.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/imr/jauremax_ros2/src/build/teleop_twist_joy",
+		"source" : "/home/imr/jauremax_ros2/src/teleop_twist_joy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

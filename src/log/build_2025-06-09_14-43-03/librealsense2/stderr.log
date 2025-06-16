@@ -1,0 +1,9 @@
+Cloning into 'libcurl'...
+HEAD is now at 2f33be817 RELEASE-NOTES: synced
+gmake[2]: *** [CMakeFiles/realsense2.dir/build.make:272: CMakeFiles/realsense2.dir/src/ds/d400/d400-auto-calibration.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/realsense2.dir/build.make:286: CMakeFiles/realsense2.dir/src/ds/d400/d400-thermal-monitor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/realsense2.dir/build.make:300: CMakeFiles/realsense2.dir/src/ds/d500/d500-device.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:844: CMakeFiles/realsense2.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/libcurl.dir/build.make:93: libcurl/src/libcurl-stamp/libcurl-configure] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:817: CMakeFiles/libcurl.dir/all] Interrupt
+gmake: *** [Makefile:136: all] Interrupt

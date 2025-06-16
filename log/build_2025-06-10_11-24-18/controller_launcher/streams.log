@@ -1,0 +1,34 @@
+[2.119s] Invoking command in '/home/imr/ws-for-ov2slam/src/controller_launcher': CMAKE_PREFIX_PATH=/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/imr/ws-for-ov2slam/build/controller_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_launcher build --build-base /home/imr/ws-for-ov2slam/build/controller_launcher/build install --record /home/imr/ws-for-ov2slam/build/controller_launcher/install.log --single-version-externally-managed install_data
+[2.576s] running egg_info
+[2.577s] creating ../../build/controller_launcher/controller_launcher.egg-info
+[2.595s] writing ../../build/controller_launcher/controller_launcher.egg-info/PKG-INFO
+[2.597s] writing dependency_links to ../../build/controller_launcher/controller_launcher.egg-info/dependency_links.txt
+[2.597s] writing requirements to ../../build/controller_launcher/controller_launcher.egg-info/requires.txt
+[2.597s] writing top-level names to ../../build/controller_launcher/controller_launcher.egg-info/top_level.txt
+[2.597s] writing manifest file '../../build/controller_launcher/controller_launcher.egg-info/SOURCES.txt'
+[2.649s] reading manifest file '../../build/controller_launcher/controller_launcher.egg-info/SOURCES.txt'
+[2.650s] writing manifest file '../../build/controller_launcher/controller_launcher.egg-info/SOURCES.txt'
+[2.650s] running build
+[2.650s] running build_py
+[2.651s] creating /home/imr/ws-for-ov2slam/build/controller_launcher/build
+[2.651s] creating /home/imr/ws-for-ov2slam/build/controller_launcher/build/lib
+[2.651s] creating /home/imr/ws-for-ov2slam/build/controller_launcher/build/lib/controller_launcher
+[2.651s] copying controller_launcher/__init__.py -> /home/imr/ws-for-ov2slam/build/controller_launcher/build/lib/controller_launcher
+[2.651s] running install
+[2.657s] running install_lib
+[2.676s] creating /home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher
+[2.677s] copying /home/imr/ws-for-ov2slam/build/controller_launcher/build/lib/controller_launcher/__init__.py -> /home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher
+[2.677s] byte-compiling /home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher/__init__.py to __init__.cpython-310.pyc
+[2.678s] running install_data
+[2.678s] creating /home/imr/ws-for-ov2slam/install/controller_launcher/share/ament_index
+[2.678s] creating /home/imr/ws-for-ov2slam/install/controller_launcher/share/ament_index/resource_index
+[2.678s] creating /home/imr/ws-for-ov2slam/install/controller_launcher/share/ament_index/resource_index/packages
+[2.678s] copying resource/controller_launcher -> /home/imr/ws-for-ov2slam/install/controller_launcher/share/ament_index/resource_index/packages
+[2.678s] copying package.xml -> /home/imr/ws-for-ov2slam/install/controller_launcher/share/controller_launcher
+[2.679s] creating /home/imr/ws-for-ov2slam/install/controller_launcher/share/controller_launcher/launch
+[2.679s] copying launch/controller_launch.py -> /home/imr/ws-for-ov2slam/install/controller_launcher/share/controller_launcher/launch
+[2.679s] running install_egg_info
+[2.700s] Copying ../../build/controller_launcher/controller_launcher.egg-info to /home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher-0.0.1-py3.10.egg-info
+[2.701s] running install_scripts
+[2.780s] writing list of installed files to '/home/imr/ws-for-ov2slam/build/controller_launcher/install.log'
+[2.823s] Invoked command in '/home/imr/ws-for-ov2slam/src/controller_launcher' returned '0': CMAKE_PREFIX_PATH=/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/imr/ws-for-ov2slam/build/controller_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_launcher build --build-base /home/imr/ws-for-ov2slam/build/controller_launcher/build install --record /home/imr/ws-for-ov2slam/build/controller_launcher/install.log --single-version-externally-managed install_data

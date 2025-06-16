@@ -1,0 +1,4 @@
+source;share/ov2slam/local_setup.bash
+source;share/ov2slam/local_setup.dsv
+source;share/ov2slam/local_setup.sh
+source;share/ov2slam/local_setup.zsh

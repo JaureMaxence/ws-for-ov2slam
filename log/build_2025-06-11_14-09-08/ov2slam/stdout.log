@@ -1,0 +1,47 @@
+[ 89%] Built target ov2slam
+[100%] Built target ov2slam_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include/
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_manager.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//slam_params.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_calibration.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ros_visualizer.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_extractor.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//visual_front_end.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//logger.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//mapper.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//multi_view_geometry.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//profiler.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_visualizer.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3_param_block.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/intrinsic_param_block.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/inverse_depth_param_block.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/pointxyz_param_block.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_point.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ov2slam.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//loop_closer.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_tracker.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//frame.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//optimizer.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//estimator.hpp
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/lib/libov2slam.so
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/lib/ov2slam/ov2slam_node
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/package_run_dependencies/ov2slam
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/parent_prefix_path/ov2slam
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.sh
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.sh
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.dsv
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.bash
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.sh
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.zsh
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.dsv
+-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.dsv
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/packages/ov2slam
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig.cmake
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig-version.cmake
+-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.xml

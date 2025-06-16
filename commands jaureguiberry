@@ -1,0 +1,68 @@
+// FASTEST WAY WITH THE LAUNCH FILE
+
+cd jauremax_ros2/ 
+colcon build
+source install/setup.sh
+
+ros2 launch controller_launcher controller_launch.py
+
+rviz2    // 2nd terminal
+
+ros2 topic echo /cmd_vel    //3rd terminal (optionnal)
+
+
+
+// USEFUL 
+
+ros2 node list  
+ros2 topic list
+rqt_graph
+nano src/teleop_twist_joy/config/joy_config.yaml 
+
+
+
+
+
+// MANUALLY WAY
+
+
+//Control the robot with a controller
+
+cd jauremax_ros2/   //everywhere
+colcon build
+source install/setup.sh
+
+ros2 launch kobuki_node kobuki_node-launch.py  //1st terminal
+
+ros2 run joy joy_node   //2nd terminal
+
+ros2 run teleop_twist_joy teleop_node --ros-args --params-file src/teleop_twist_joy/config/joy_config.yaml    //3rd terminal
+
+ros2 topic echo /cmd_vel   //4th terminal
+
+
+// Visualization of the camera with rviz2
+
+ros2 launch realsense2_camera rs_launch.py align_depth:=true enable_pointcloud:=true    //5th terminal
+
+rviz2   //6th terminal
+
+
+
+
+
+
+
+
+ros2 run topic_tools throttle messages \
+  /camera/camera/color/image_raw 6.0 \
+  /camera/throttled/color_image_raw \
+  sensor_msgs/msg/Image
+    
+
+ros2 run ov2slam ov2slam_node \src/ov2slam-ros2/parameters_files/average/kitti/kitti_03.yaml 
+rviz2 -d ~/ws-for-ov2slam/src/ov2slam-ros2/ov2slam_visualization.rviz
+
+
+
+

@@ -1,0 +1,46 @@
+[33mCMake Warning at CMakeLists.txt:78 (find_package):
+  By not providing "Findobindex2.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "obindex2",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "obindex2" with any
+  of the following names:
+
+    obindex2Config.cmake
+    obindex2-config.cmake
+
+  Add the installation prefix of "obindex2" to CMAKE_PREFIX_PATH or set
+  "obindex2_DIR" to a directory containing one of the above files.  If
+  "obindex2" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:79 (find_package):
+  By not providing "Findlcdetector.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "lcdetector", but CMake did not find one.
+
+  Could not find a package configuration file provided by "lcdetector" with
+  any of the following names:
+
+    lcdetectorConfig.cmake
+    lcdetector-config.cmake
+
+  Add the installation prefix of "lcdetector" to CMAKE_PREFIX_PATH or set
+  "lcdetector_DIR" to a directory containing one of the above files.  If
+  "lcdetector" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization.hpp:34[m[K,
+                 from [01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:43[m[K:
+[01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp:[m[K In member function ‘[01m[Kvirtual bool SE3LeftParameterization::ComputeJacobian(const double*, double*) const[m[K’:
+[01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp:62:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 |     virtual bool ComputeJacobian([01;35m[Kconst double* x[m[K,
+      |                                  [01;35m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:[m[K In static member function ‘[01m[Kstatic bool MultiViewGeometry::opencv5ptEssentialMatrix(const std::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >&, const std::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >&, int, float, bool, float, float, Eigen::Matrix3d&, Eigen::Vector3d&, std::vector<int>&)[m[K’:
+[01m[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:702:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knmaxiter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  702 |     [01;35m[Kconst int nmaxiter[m[K, const float errth, const bool boptimize, const float fx, const float fy,
+      |     [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405

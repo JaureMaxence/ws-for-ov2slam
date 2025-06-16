@@ -1,0 +1,25 @@
+[  0%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/lz4/lz4.c.o[0m
+[  0%] [32mBuilding CXX object tools/embed/CMakeFiles/rs-embed.dir/rs-embed.cpp.o[0m
+[  0%] [34m[1mCreating directories for 'libcurl'[0m
+[  1%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/__/easyloggingpp/src/easylogging++.cc.o[0m
+[  1%] [34m[1mPerforming download step (git clone) for 'libcurl'[0m
+Cloning into 'libcurl'...
+[  1%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/console_bridge/src/console.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/debug.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/header.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/configure-elpp-logger.cpp.o[0m
+[  3%] [32mBuilding C object tools/embed/CMakeFiles/rs-embed.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[  3%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/crc32.cpp.o[0m
+[  3%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/dispatcher.cpp.o[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:1679: tools/embed/CMakeFiles/rs-embed.dir/all] Error 2
+gmake[2]: *** [third-party/rsutils/CMakeFiles/rsutils.dir/build.make:118: third-party/rsutils/CMakeFiles/rsutils.dir/src/dispatcher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:896: third-party/rsutils/CMakeFiles/rsutils.dir/all] Interrupt
+gmake[2]: *** [third-party/realsense-file/CMakeFiles/realsense-file.dir/build.make:132: third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:922: third-party/realsense-file/CMakeFiles/realsense-file.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/libcurl.dir/build.make:99: libcurl/src/libcurl-stamp/libcurl-download] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:817: CMakeFiles/libcurl.dir/all] Interrupt
+gmake: *** [Makefile:136: all] Interrupt

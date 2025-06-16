@@ -1,0 +1,54 @@
+[0.026s] Invoking command in '/home/imr/jauremax_ros2/src/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/jauremax_ros2/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/kobuki_node
+[0.047s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.372s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.374s] -- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.616s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.884s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.893s] -- Found ecl_errors: 1.2.0 (/opt/ros/humble/share/ecl_errors/cmake)
+[0.903s] -- Found ecl_exceptions: 1.2.1 (/opt/ros/humble/share/ecl_exceptions/cmake)
+[0.907s] -- Found ecl_geometry: 1.2.1 (/opt/ros/humble/share/ecl_geometry/cmake)
+[1.050s] -- Found ecl_sigslots: 1.2.1 (/opt/ros/humble/share/ecl_sigslots/cmake)
+[1.063s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.063s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[1.063s]   does not match the name of the calling package (ecl_threads).  This can
+[1.063s]   lead to problems in calling code that expects `find_package` result
+[1.063s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.063s] Call Stack (most recent call first):
+[1.063s]   /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.064s]   /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[1.064s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[1.064s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[1.064s]   /opt/ros/humble/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.064s]   /opt/ros/humble/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+[1.064s]   CMakeLists.txt:13 (find_package)
+[1.064s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.064s] [0m
+[1.097s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.138s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.138s]   By not providing "Findkobuki_core.cmake" in CMAKE_MODULE_PATH this project
+[1.138s]   has asked CMake to find a package configuration file provided by
+[1.139s]   "kobuki_core", but CMake did not find one.
+[1.139s] 
+[1.139s]   Could not find a package configuration file provided by "kobuki_core" with
+[1.139s]   any of the following names:
+[1.139s] 
+[1.139s]     kobuki_coreConfig.cmake
+[1.139s]     kobuki_core-config.cmake
+[1.139s] 
+[1.139s]   Add the installation prefix of "kobuki_core" to CMAKE_PREFIX_PATH or set
+[1.139s]   "kobuki_core_DIR" to a directory containing one of the above files.  If
+[1.141s]   "kobuki_core" provides a separate development package or SDK, be sure it
+[1.142s]   has been installed.
+[1.142s] 
+[1.142s] [0m
+[1.142s] -- Configuring incomplete, errors occurred!
+[1.142s] See also "/home/imr/jauremax_ros2/src/build/kobuki_node/CMakeFiles/CMakeOutput.log".
+[1.155s] Invoked command in '/home/imr/jauremax_ros2/src/build/kobuki_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/jauremax_ros2/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/kobuki_node

@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/imr/ws-for-ov2slam/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/teleop_twist_joy -- -j4 -l4
+[0.195s] [ 50%] Built target teleop_twist_joy
+[0.233s] [100%] Built target teleop_twist_joy_node
+[0.256s] Invoked command in '/home/imr/ws-for-ov2slam/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/teleop_twist_joy -- -j4 -l4
+[0.259s] Invoking command in '/home/imr/ws-for-ov2slam/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/teleop_twist_joy
+[0.269s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[0.274s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[0.274s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config
+[0.275s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps5.config.yaml
+[0.276s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[0.277s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/joy_config.yaml
+[0.277s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[0.278s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[0.279s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[0.280s] -- Installing: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[0.280s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[0.280s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake
+[0.281s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[0.282s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[0.282s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[0.314s] Invoked command in '/home/imr/ws-for-ov2slam/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/teleop_twist_joy

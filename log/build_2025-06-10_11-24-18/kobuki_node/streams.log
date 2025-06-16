@@ -1,0 +1,107 @@
+[0.026s] Invoking command in '/home/imr/ws-for-ov2slam/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/ws-for-ov2slam/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/ws-for-ov2slam/install/kobuki_node
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.454s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.461s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.677s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.860s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.870s] -- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.945s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.954s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.967s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.090s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.176s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.353s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.400s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.491s] -- Looking for pthread.h
+[2.606s] -- Looking for pthread.h - found
+[2.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.725s] -- Found Threads: TRUE  
+[2.816s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[2.834s] -- Found ecl_errors: 1.2.0 (/opt/ros/humble/share/ecl_errors/cmake)
+[2.856s] -- Found ecl_exceptions: 1.2.1 (/opt/ros/humble/share/ecl_exceptions/cmake)
+[2.869s] -- Found ecl_geometry: 1.2.1 (/opt/ros/humble/share/ecl_geometry/cmake)
+[3.045s] -- Found ecl_sigslots: 1.2.1 (/opt/ros/humble/share/ecl_sigslots/cmake)
+[3.059s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.059s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[3.059s]   does not match the name of the calling package (ecl_threads).  This can
+[3.059s]   lead to problems in calling code that expects `find_package` result
+[3.059s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.059s] Call Stack (most recent call first):
+[3.059s]   /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[3.060s]   /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[3.060s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[3.060s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[3.060s]   /opt/ros/humble/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.060s]   /opt/ros/humble/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+[3.060s]   CMakeLists.txt:13 (find_package)
+[3.060s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.061s] [0m
+[3.101s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.132s] -- Found kobuki_core: 1.4.1 (/opt/ros/humble/share/kobuki_core/cmake)
+[3.184s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[3.270s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.300s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.355s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.395s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.404s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.591s] -- Configuring done
+[3.624s] -- Generating done
+[3.637s] -- Build files have been written to: /home/imr/ws-for-ov2slam/build/kobuki_node
+[3.659s] Invoked command in '/home/imr/ws-for-ov2slam/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/ws-for-ov2slam/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/ws-for-ov2slam/install/kobuki_node
+[3.665s] Invoking command in '/home/imr/ws-for-ov2slam/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/kobuki_node -- -j4 -l4
+[3.758s] [ 16%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[3.763s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[3.768s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[3.774s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[13.363s] [ 83%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[13.868s] [ 83%] Built target kobuki_ros_node
+[84.324s] [100%] [32m[1mLinking CXX shared library libkobuki_ros.so[0m
+[88.934s] [100%] Built target kobuki_ros
+[88.985s] Invoked command in '/home/imr/ws-for-ov2slam/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/kobuki_node -- -j4 -l4
+[88.989s] Invoking command in '/home/imr/ws-for-ov2slam/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/kobuki_node
+[89.003s] -- Install configuration: ""
+[89.004s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+[89.006s] -- Set runtime path of "/home/imr/ws-for-ov2slam/install/kobuki_node/lib/kobuki_node/kobuki_ros_node" to ""
+[89.006s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/lib/libkobuki_ros.so
+[89.052s] -- Set runtime path of "/home/imr/ws-for-ov2slam/install/kobuki_node/lib/libkobuki_ros.so" to ""
+[89.052s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node
+[89.052s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+[89.052s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+[89.053s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/odometry.hpp
+[89.053s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/config
+[89.053s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+[89.054s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch
+[89.054s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+[89.054s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+[89.055s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+[89.055s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+[89.056s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+[89.056s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+[89.056s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/path.sh
+[89.057s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/path.dsv
+[89.057s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.bash
+[89.057s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.sh
+[89.058s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.zsh
+[89.058s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.dsv
+[89.059s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/package.dsv
+[89.059s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+[89.059s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+[89.060s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+[89.060s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+[89.060s] -- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/package.xml
+[89.064s] Invoked command in '/home/imr/ws-for-ov2slam/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/kobuki_node

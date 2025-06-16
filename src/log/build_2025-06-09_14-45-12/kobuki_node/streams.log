@@ -1,0 +1,72 @@
+[0.026s] Invoking command in '/home/imr/jauremax_ros2/src/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/jauremax_ros2/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/kobuki_node
+[0.050s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.367s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.370s] -- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.474s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.488s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.515s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.776s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.912s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.920s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.454s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[1.463s] -- Found ecl_errors: 1.2.0 (/opt/ros/humble/share/ecl_errors/cmake)
+[1.470s] -- Found ecl_exceptions: 1.2.1 (/opt/ros/humble/share/ecl_exceptions/cmake)
+[1.475s] -- Found ecl_geometry: 1.2.1 (/opt/ros/humble/share/ecl_geometry/cmake)
+[1.567s] -- Found ecl_sigslots: 1.2.1 (/opt/ros/humble/share/ecl_sigslots/cmake)
+[1.587s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.641s] -- Found kobuki_core: 1.4.1 (/opt/ros/humble/share/kobuki_core/cmake)
+[1.711s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[1.923s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.996s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.066s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.130s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.152s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.532s] -- Configuring done
+[2.579s] -- Generating done
+[2.597s] -- Build files have been written to: /home/imr/jauremax_ros2/src/build/kobuki_node
+[2.616s] Invoked command in '/home/imr/jauremax_ros2/src/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/jauremax_ros2/src/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/kobuki_node
+[2.618s] Invoking command in '/home/imr/jauremax_ros2/src/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --build /home/imr/jauremax_ros2/src/build/kobuki_node -- -j4 -l4
+[2.765s] [ 16%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[2.765s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[2.769s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[2.778s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[14.420s] [ 83%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[14.809s] [ 83%] Built target kobuki_ros_node
+[75.970s] [100%] [32m[1mLinking CXX shared library libkobuki_ros.so[0m
+[79.173s] [100%] Built target kobuki_ros
+[79.186s] Invoked command in '/home/imr/jauremax_ros2/src/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --build /home/imr/jauremax_ros2/src/build/kobuki_node -- -j4 -l4
+[79.189s] Invoking command in '/home/imr/jauremax_ros2/src/build/kobuki_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --install /home/imr/jauremax_ros2/src/build/kobuki_node
+[79.200s] -- Install configuration: ""
+[79.201s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+[79.202s] -- Set runtime path of "/home/imr/jauremax_ros2/src/install/kobuki_node/lib/kobuki_node/kobuki_ros_node" to ""
+[79.202s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/lib/libkobuki_ros.so
+[79.248s] -- Set runtime path of "/home/imr/jauremax_ros2/src/install/kobuki_node/lib/libkobuki_ros.so" to ""
+[79.248s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/include/kobuki_node
+[79.248s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+[79.248s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+[79.248s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/include/kobuki_node/odometry.hpp
+[79.249s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/config
+[79.250s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+[79.251s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/launch
+[79.251s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+[79.252s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+[79.252s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+[79.253s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+[79.253s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+[79.253s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+[79.253s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/environment/path.sh
+[79.254s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/environment/path.dsv
+[79.254s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/local_setup.bash
+[79.254s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/local_setup.sh
+[79.254s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/local_setup.zsh
+[79.255s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/local_setup.dsv
+[79.255s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/package.dsv
+[79.255s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+[79.255s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+[79.255s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+[79.256s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+[79.256s] -- Installing: /home/imr/jauremax_ros2/src/install/kobuki_node/share/kobuki_node/package.xml
+[79.260s] Invoked command in '/home/imr/jauremax_ros2/src/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake --install /home/imr/jauremax_ros2/src/build/kobuki_node

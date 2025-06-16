@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: controller-launcher
+Version: 0.0.1
+Summary: Launch controller and robot nodes
+Maintainer: imr
+Maintainer-email: abdulahm@fel.cvut.cz
+License: Apache-2.0

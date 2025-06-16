@@ -1,0 +1,52 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_errors: 1.2.0 (/opt/ros/humble/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/opt/ros/humble/share/ecl_exceptions/cmake)
+-- Found ecl_geometry: 1.2.1 (/opt/ros/humble/share/ecl_geometry/cmake)
+-- Found ecl_sigslots: 1.2.1 (/opt/ros/humble/share/ecl_sigslots/cmake)
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /opt/ros/humble/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Findkobuki_core.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "kobuki_core", but CMake did not find one.
+
+  Could not find a package configuration file provided by "kobuki_core" with
+  any of the following names:
+
+    kobuki_coreConfig.cmake
+    kobuki_core-config.cmake
+
+  Add the installation prefix of "kobuki_core" to CMAKE_PREFIX_PATH or set
+  "kobuki_core_DIR" to a directory containing one of the above files.  If
+  "kobuki_core" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/imr/jauremax_ros2/src/build/kobuki_node/CMakeFiles/CMakeOutput.log".

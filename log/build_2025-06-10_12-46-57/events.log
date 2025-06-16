@@ -1,0 +1,534 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (kobuki_node) JobQueued: {'identifier': 'kobuki_node', 'dependencies': OrderedDict()}
+[0.000172] (ov2slam) JobQueued: {'identifier': 'ov2slam', 'dependencies': OrderedDict()}
+[0.000204] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.000235] (controller_launcher) JobQueued: {'identifier': 'controller_launcher', 'dependencies': OrderedDict([('kobuki_node', '/home/imr/ws-for-ov2slam/install/kobuki_node'), ('teleop_twist_joy', '/home/imr/ws-for-ov2slam/install/teleop_twist_joy')])}
+[0.000305] (kobuki_node) JobStarted: {'identifier': 'kobuki_node'}
+[0.013503] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.021297] (ov2slam) JobStarted: {'identifier': 'ov2slam'}
+[0.031600] (kobuki_node) JobProgress: {'identifier': 'kobuki_node', 'progress': 'cmake'}
+[0.034391] (kobuki_node) JobProgress: {'identifier': 'kobuki_node', 'progress': 'build'}
+[0.035663] (kobuki_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/imr/ws-for-ov2slam/build/kobuki_node', '--', '-j4', '-l4'], 'cwd': '/home/imr/ws-for-ov2slam/build/kobuki_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/kobuki_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[0.040284] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.041880] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[0.043111] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/imr/ws-for-ov2slam/build/teleop_twist_joy', '--', '-j4', '-l4'], 'cwd': '/home/imr/ws-for-ov2slam/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[0.050961] (ov2slam) JobProgress: {'identifier': 'ov2slam', 'progress': 'cmake'}
+[0.053523] (ov2slam) JobProgress: {'identifier': 'ov2slam', 'progress': 'build'}
+[0.054575] (ov2slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/imr/ws-for-ov2slam/build/ov2slam', '--', '-j4', '-l4'], 'cwd': '/home/imr/ws-for-ov2slam/build/ov2slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/ov2slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[0.099270] (-) TimerEvent: {}
+[0.162104] (ov2slam) StdoutLine: {'line': b'-- Found OpenCV lib : 4.5.5 - /usr/local/include/opencv4\n'}
+[0.162458] (ov2slam) StdoutLine: {'line': b'-- Going to use OpenCV contrib!\n'}
+[0.164463] (ov2slam) StdoutLine: {'line': b'-- Found Eigen3 lib : 3.4.0 - /usr/include/eigen3\n'}
+[0.165608] (ov2slam) StdoutLine: {'line': b'-- Found Opengv lib :  - /usr/local/lib/cmake/opengv-1.0\n'}
+[0.172783] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[0.180031] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[0.180232] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[0.181539] (ov2slam) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[0.181732] (ov2slam) StdoutLine: {'line': b'-- Found Ceres lib : 2.0.0 - /usr/lib/cmake/Ceres\n'}
+[0.183418] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[0.190625] (kobuki_node) StdoutLine: {'line': b'[ 33%] Built target kobuki_ros_node\n'}
+[0.191648] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[0.193181] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[0.194334] (ov2slam) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[0.194574] (ov2slam) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[0.195401] (ov2slam) StdoutLine: {'line': b'-- Found Sophus lib : 1.22.10 - /opt/ros/humble/share/sophus/cmake\n'}
+[0.199373] (-) TimerEvent: {}
+[0.222140] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[0.233263] (ov2slam) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:78 (find_package):\n'}
+[0.233524] (ov2slam) StderrLine: {'line': b'  By not providing "Findobindex2.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.233650] (ov2slam) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "obindex2",\n'}
+[0.233766] (ov2slam) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[0.233869] (ov2slam) StderrLine: {'line': b'\n'}
+[0.234003] (ov2slam) StderrLine: {'line': b'  Could not find a package configuration file provided by "obindex2" with any\n'}
+[0.234128] (ov2slam) StderrLine: {'line': b'  of the following names:\n'}
+[0.236209] (ov2slam) StderrLine: {'line': b'\n'}
+[0.236622] (ov2slam) StderrLine: {'line': b'    obindex2Config.cmake\n'}
+[0.236763] (ov2slam) StderrLine: {'line': b'    obindex2-config.cmake\n'}
+[0.236890] (ov2slam) StderrLine: {'line': b'\n'}
+[0.237014] (ov2slam) StderrLine: {'line': b'  Add the installation prefix of "obindex2" to CMAKE_PREFIX_PATH or set\n'}
+[0.237138] (ov2slam) StderrLine: {'line': b'  "obindex2_DIR" to a directory containing one of the above files.  If\n'}
+[0.237463] (ov2slam) StderrLine: {'line': b'  "obindex2" provides a separate development package or SDK, be sure it has\n'}
+[0.237613] (ov2slam) StderrLine: {'line': b'  been installed.\n'}
+[0.237722] (ov2slam) StderrLine: {'line': b'\n'}
+[0.237889] (ov2slam) StderrLine: {'line': b'\x1b[0m\n'}
+[0.238906] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[0.240087] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[0.249205] (kobuki_node) StdoutLine: {'line': b'[100%] Built target kobuki_ros\n'}
+[0.249998] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/imr/ws-for-ov2slam/build/teleop_twist_joy'], 'cwd': '/home/imr/ws-for-ov2slam/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[0.255527] (ov2slam) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:79 (find_package):\n'}
+[0.255804] (ov2slam) StderrLine: {'line': b'  By not providing "Findlcdetector.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.255974] (ov2slam) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.256143] (ov2slam) StderrLine: {'line': b'  "lcdetector", but CMake did not find one.\n'}
+[0.256290] (ov2slam) StderrLine: {'line': b'\n'}
+[0.256411] (ov2slam) StderrLine: {'line': b'  Could not find a package configuration file provided by "lcdetector" with\n'}
+[0.256533] (ov2slam) StderrLine: {'line': b'  any of the following names:\n'}
+[0.256649] (ov2slam) StderrLine: {'line': b'\n'}
+[0.256742] (ov2slam) StderrLine: {'line': b'    lcdetectorConfig.cmake\n'}
+[0.256864] (ov2slam) StderrLine: {'line': b'    lcdetector-config.cmake\n'}
+[0.256961] (ov2slam) StderrLine: {'line': b'\n'}
+[0.257057] (ov2slam) StderrLine: {'line': b'  Add the installation prefix of "lcdetector" to CMAKE_PREFIX_PATH or set\n'}
+[0.257147] (ov2slam) StderrLine: {'line': b'  "lcdetector_DIR" to a directory containing one of the above files.  If\n'}
+[0.257275] (ov2slam) StderrLine: {'line': b'  "lcdetector" provides a separate development package or SDK, be sure it has\n'}
+[0.257389] (ov2slam) StderrLine: {'line': b'  been installed.\n'}
+[0.257481] (ov2slam) StderrLine: {'line': b'\n'}
+[0.257571] (ov2slam) StderrLine: {'line': b'\x1b[0m\n'}
+[0.257671] (ov2slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.261973] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.262913] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[0.264076] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[0.264375] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[0.264866] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[0.265017] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[0.265669] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[0.265966] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[0.266102] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[0.266227] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[0.266447] (kobuki_node) CommandEnded: {'returncode': 0}
+[0.267114] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps5.config.yaml\n'}
+[0.267255] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[0.267443] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/joy_config.yaml\n'}
+[0.267572] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[0.267688] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[0.267784] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[0.267908] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml\n'}
+[0.268039] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[0.268512] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[0.268676] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[0.268808] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[0.268946] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[0.269070] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[0.269189] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[0.269387] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[0.269527] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[0.269661] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[0.269793] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[0.269926] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[0.270231] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[0.270419] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[0.270525] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[0.270633] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[0.270735] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[0.270837] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[0.270938] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.271119] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.271236] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.271385] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[0.271545] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[0.271662] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[0.271778] (kobuki_node) JobProgress: {'identifier': 'kobuki_node', 'progress': 'install'}
+[0.272159] (kobuki_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/imr/ws-for-ov2slam/build/kobuki_node'], 'cwd': '/home/imr/ws-for-ov2slam/build/kobuki_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/kobuki_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[0.274914] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[0.284867] (kobuki_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.285638] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/lib/kobuki_node/kobuki_ros_node\n'}
+[0.286834] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/lib/libkobuki_ros.so\n'}
+[0.287794] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node\n'}
+[0.287985] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp\n'}
+[0.288125] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/diagnostics.hpp\n'}
+[0.288400] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/include/kobuki_node/odometry.hpp\n'}
+[0.288578] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/config\n'}
+[0.288706] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml\n'}
+[0.288823] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch\n'}
+[0.288934] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py\n'}
+[0.289054] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py\n'}
+[0.289168] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node\n'}
+[0.289548] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node\n'}
+[0.289935] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh\n'}
+[0.290054] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv\n'}
+[0.290170] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/path.sh\n'}
+[0.290291] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/environment/path.dsv\n'}
+[0.291005] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.bash\n'}
+[0.291129] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.sh\n'}
+[0.291258] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.zsh\n'}
+[0.291463] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/local_setup.dsv\n'}
+[0.291583] (kobuki_node) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/package.dsv\n'}
+[0.291696] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node\n'}
+[0.291806] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node\n'}
+[0.291921] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake\n'}
+[0.292039] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake\n'}
+[0.292152] (kobuki_node) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/kobuki_node/share/kobuki_node/package.xml\n'}
+[0.299619] (-) TimerEvent: {}
+[0.312448] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[0.314108] (kobuki_node) CommandEnded: {'returncode': 0}
+[0.334656] (kobuki_node) JobEnded: {'identifier': 'kobuki_node', 'rc': 0}
+[0.336661] (controller_launcher) JobStarted: {'identifier': 'controller_launcher'}
+[0.399722] (-) TimerEvent: {}
+[0.443961] (ov2slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.491567] (ov2slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.495619] (ov2slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499804] (-) TimerEvent: {}
+[0.506029] (ov2slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.524104] (ov2slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.543760] (ov2slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.595599] (ov2slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.599891] (-) TimerEvent: {}
+[0.600149] (ov2slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699994] (-) TimerEvent: {}
+[0.752470] (ov2slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800082] (-) TimerEvent: {}
+[0.831716] (ov2slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.878013] (ov2slam) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.900178] (-) TimerEvent: {}
+[0.904475] (ov2slam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.907860] (ov2slam) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.940095] (ov2slam) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.944966] (ov2slam) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.000279] (-) TimerEvent: {}
+[1.063841] (ov2slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.100380] (-) TimerEvent: {}
+[1.103380] (ov2slam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.200475] (-) TimerEvent: {}
+[1.300759] (-) TimerEvent: {}
+[1.401087] (-) TimerEvent: {}
+[1.501366] (-) TimerEvent: {}
+[1.601648] (-) TimerEvent: {}
+[1.635334] (ov2slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.645417] (ov2slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.645765] (ov2slam) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.654250] (controller_launcher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller_launcher', 'build', '--build-base', '/home/imr/ws-for-ov2slam/build/controller_launcher/build', 'install', '--record', '/home/imr/ws-for-ov2slam/build/controller_launcher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/imr/ws-for-ov2slam/src/controller_launcher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'imr', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/imr', 'OLDPWD': '/home/imr', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '2366', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'imr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'imr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PUZ572', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/imr/ws-for-ov2slam/build/controller_launcher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/imr/ws-for-ov2slam/build/controller_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'cs_CZ.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/src/install/librealsense2'}, 'shell': False}
+[1.701739] (-) TimerEvent: {}
+[1.802009] (-) TimerEvent: {}
+[1.848531] (ov2slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.855728] (ov2slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.862814] (ov2slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.902103] (-) TimerEvent: {}
+[2.002394] (-) TimerEvent: {}
+[2.031089] (ov2slam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.102490] (-) TimerEvent: {}
+[2.146526] (controller_launcher) StdoutLine: {'line': b'running egg_info\n'}
+[2.164899] (controller_launcher) StdoutLine: {'line': b'writing ../../build/controller_launcher/controller_launcher.egg-info/PKG-INFO\n'}
+[2.166455] (controller_launcher) StdoutLine: {'line': b'writing dependency_links to ../../build/controller_launcher/controller_launcher.egg-info/dependency_links.txt\n'}
+[2.166776] (controller_launcher) StdoutLine: {'line': b'writing requirements to ../../build/controller_launcher/controller_launcher.egg-info/requires.txt\n'}
+[2.166965] (controller_launcher) StdoutLine: {'line': b'writing top-level names to ../../build/controller_launcher/controller_launcher.egg-info/top_level.txt\n'}
+[2.193101] (ov2slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.202584] (-) TimerEvent: {}
+[2.212180] (controller_launcher) StdoutLine: {'line': b"reading manifest file '../../build/controller_launcher/controller_launcher.egg-info/SOURCES.txt'\n"}
+[2.213301] (controller_launcher) StdoutLine: {'line': b"writing manifest file '../../build/controller_launcher/controller_launcher.egg-info/SOURCES.txt'\n"}
+[2.213520] (controller_launcher) StdoutLine: {'line': b'running build\n'}
+[2.213630] (controller_launcher) StdoutLine: {'line': b'running build_py\n'}
+[2.213779] (controller_launcher) StdoutLine: {'line': b'running install\n'}
+[2.219628] (controller_launcher) StdoutLine: {'line': b'running install_lib\n'}
+[2.239564] (controller_launcher) StdoutLine: {'line': b'running install_data\n'}
+[2.239813] (controller_launcher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.259016] (controller_launcher) StdoutLine: {'line': b"removing '/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[2.259528] (controller_launcher) StdoutLine: {'line': b'Copying ../../build/controller_launcher/controller_launcher.egg-info to /home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages/controller_launcher-0.0.1-py3.10.egg-info\n'}
+[2.260423] (controller_launcher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.302679] (-) TimerEvent: {}
+[2.333170] (controller_launcher) StdoutLine: {'line': b"writing list of installed files to '/home/imr/ws-for-ov2slam/build/controller_launcher/install.log'\n"}
+[2.353348] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.353882] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.354294] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.354672] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.355068] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.355562] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.355990] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.356362] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.356675] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.357170] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.357711] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.358123] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.358758] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.359377] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.360230] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.361073] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.361882] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.362806] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.363422] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.363824] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.364669] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.364981] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.365280] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.365594] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.366067] (ov2slam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.368657] (ov2slam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.381284] (controller_launcher) CommandEnded: {'returncode': 0}
+[2.391536] (controller_launcher) JobEnded: {'identifier': 'controller_launcher', 'rc': 0}
+[2.402787] (-) TimerEvent: {}
+[2.496859] (ov2slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.502893] (-) TimerEvent: {}
+[2.603123] (-) TimerEvent: {}
+[2.636828] (ov2slam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.657494] (ov2slam) StdoutLine: {'line': b'-- Build files have been written to: /home/imr/ws-for-ov2slam/build/ov2slam\n'}
+[2.703272] (-) TimerEvent: {}
+[2.721681] (ov2slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ov2slam\x1b[0m\n'}
+[2.803353] (-) TimerEvent: {}
+[2.807401] (ov2slam) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/ov2slam.dir/src/multi_view_geometry.cpp.o\x1b[0m\n'}
+[2.903471] (-) TimerEvent: {}
+[3.003862] (-) TimerEvent: {}
+[3.104161] (-) TimerEvent: {}
+[3.204441] (-) TimerEvent: {}
+[3.304719] (-) TimerEvent: {}
+[3.404966] (-) TimerEvent: {}
+[3.505248] (-) TimerEvent: {}
+[3.605534] (-) TimerEvent: {}
+[3.705950] (-) TimerEvent: {}
+[3.806244] (-) TimerEvent: {}
+[3.906534] (-) TimerEvent: {}
+[4.006824] (-) TimerEvent: {}
+[4.107113] (-) TimerEvent: {}
+[4.207327] (-) TimerEvent: {}
+[4.307631] (-) TimerEvent: {}
+[4.407963] (-) TimerEvent: {}
+[4.508262] (-) TimerEvent: {}
+[4.608538] (-) TimerEvent: {}
+[4.708828] (-) TimerEvent: {}
+[4.809121] (-) TimerEvent: {}
+[4.909388] (-) TimerEvent: {}
+[5.009663] (-) TimerEvent: {}
+[5.109945] (-) TimerEvent: {}
+[5.210232] (-) TimerEvent: {}
+[5.310487] (-) TimerEvent: {}
+[5.410786] (-) TimerEvent: {}
+[5.511079] (-) TimerEvent: {}
+[5.611382] (-) TimerEvent: {}
+[5.711674] (-) TimerEvent: {}
+[5.811969] (-) TimerEvent: {}
+[5.912274] (-) TimerEvent: {}
+[6.012558] (-) TimerEvent: {}
+[6.112865] (-) TimerEvent: {}
+[6.213164] (-) TimerEvent: {}
+[6.307060] (ov2slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization.hpp:34\x1b[m\x1b[K,\n'}
+[6.307324] (ov2slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:43\x1b[m\x1b[K:\n'}
+[6.307489] (ov2slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SE3LeftParameterization::ComputeJacobian(const double*, double*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.307609] (ov2slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/include/ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp:62:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.307727] (ov2slam) StderrLine: {'line': b'   62 |     virtual bool ComputeJacobian(\x1b[01;35m\x1b[Kconst double* x\x1b[m\x1b[K,\n'}
+[6.307832] (ov2slam) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[6.313276] (-) TimerEvent: {}
+[6.413580] (-) TimerEvent: {}
+[6.513883] (-) TimerEvent: {}
+[6.614191] (-) TimerEvent: {}
+[6.714534] (-) TimerEvent: {}
+[6.814877] (-) TimerEvent: {}
+[6.915214] (-) TimerEvent: {}
+[7.015556] (-) TimerEvent: {}
+[7.115863] (-) TimerEvent: {}
+[7.216161] (-) TimerEvent: {}
+[7.274700] (ov2slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool MultiViewGeometry::opencv5ptEssentialMatrix(const std::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >&, const std::vector<Eigen::Matrix<double, 3, 1>, Eigen::aligned_allocator<Eigen::Matrix<double, 3, 1> > >&, int, float, bool, float, float, Eigen::Matrix3d&, Eigen::Vector3d&, std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.274923] (ov2slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/imr/ws-for-ov2slam/src/ov2slam-ros2/src/multi_view_geometry.cpp:702:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knmaxiter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.275042] (ov2slam) StderrLine: {'line': b'  702 |     \x1b[01;35m\x1b[Kconst int nmaxiter\x1b[m\x1b[K, const float errth, const bool boptimize, const float fx, const float fy,\n'}
+[7.275147] (ov2slam) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.316293] (-) TimerEvent: {}
+[7.416603] (-) TimerEvent: {}
+[7.516902] (-) TimerEvent: {}
+[7.617198] (-) TimerEvent: {}
+[7.717525] (-) TimerEvent: {}
+[7.817859] (-) TimerEvent: {}
+[7.918168] (-) TimerEvent: {}
+[8.018501] (-) TimerEvent: {}
+[8.118828] (-) TimerEvent: {}
+[8.219153] (-) TimerEvent: {}
+[8.319497] (-) TimerEvent: {}
+[8.419804] (-) TimerEvent: {}
+[8.520107] (-) TimerEvent: {}
+[8.620417] (-) TimerEvent: {}
+[8.720745] (-) TimerEvent: {}
+[8.821058] (-) TimerEvent: {}
+[8.921363] (-) TimerEvent: {}
+[9.021659] (-) TimerEvent: {}
+[9.121978] (-) TimerEvent: {}
+[9.222276] (-) TimerEvent: {}
+[9.322568] (-) TimerEvent: {}
+[9.422863] (-) TimerEvent: {}
+[9.523169] (-) TimerEvent: {}
+[9.623479] (-) TimerEvent: {}
+[9.723800] (-) TimerEvent: {}
+[9.824100] (-) TimerEvent: {}
+[9.924462] (-) TimerEvent: {}
+[10.024751] (-) TimerEvent: {}
+[10.125059] (-) TimerEvent: {}
+[10.225365] (-) TimerEvent: {}
+[10.325677] (-) TimerEvent: {}
+[10.425985] (-) TimerEvent: {}
+[10.526301] (-) TimerEvent: {}
+[10.626602] (-) TimerEvent: {}
+[10.726900] (-) TimerEvent: {}
+[10.827223] (-) TimerEvent: {}
+[10.927490] (-) TimerEvent: {}
+[11.027777] (-) TimerEvent: {}
+[11.128084] (-) TimerEvent: {}
+[11.228326] (-) TimerEvent: {}
+[11.328635] (-) TimerEvent: {}
+[11.428938] (-) TimerEvent: {}
+[11.529259] (-) TimerEvent: {}
+[11.629537] (-) TimerEvent: {}
+[11.729852] (-) TimerEvent: {}
+[11.830155] (-) TimerEvent: {}
+[11.930482] (-) TimerEvent: {}
+[12.030793] (-) TimerEvent: {}
+[12.131115] (-) TimerEvent: {}
+[12.231509] (-) TimerEvent: {}
+[12.331826] (-) TimerEvent: {}
+[12.432121] (-) TimerEvent: {}
+[12.532439] (-) TimerEvent: {}
+[12.632743] (-) TimerEvent: {}
+[12.733073] (-) TimerEvent: {}
+[12.833440] (-) TimerEvent: {}
+[12.933790] (-) TimerEvent: {}
+[13.034122] (-) TimerEvent: {}
+[13.134475] (-) TimerEvent: {}
+[13.234819] (-) TimerEvent: {}
+[13.335194] (-) TimerEvent: {}
+[13.435536] (-) TimerEvent: {}
+[13.535874] (-) TimerEvent: {}
+[13.636212] (-) TimerEvent: {}
+[13.736557] (-) TimerEvent: {}
+[13.836888] (-) TimerEvent: {}
+[13.937216] (-) TimerEvent: {}
+[14.037587] (-) TimerEvent: {}
+[14.137965] (-) TimerEvent: {}
+[14.238244] (-) TimerEvent: {}
+[14.338493] (-) TimerEvent: {}
+[14.438801] (-) TimerEvent: {}
+[14.539089] (-) TimerEvent: {}
+[14.639324] (-) TimerEvent: {}
+[14.739612] (-) TimerEvent: {}
+[14.839914] (-) TimerEvent: {}
+[14.940200] (-) TimerEvent: {}
+[15.040460] (-) TimerEvent: {}
+[15.140755] (-) TimerEvent: {}
+[15.241038] (-) TimerEvent: {}
+[15.341336] (-) TimerEvent: {}
+[15.441648] (-) TimerEvent: {}
+[15.541958] (-) TimerEvent: {}
+[15.642266] (-) TimerEvent: {}
+[15.742557] (-) TimerEvent: {}
+[15.842891] (-) TimerEvent: {}
+[15.943208] (-) TimerEvent: {}
+[16.043499] (-) TimerEvent: {}
+[16.143843] (-) TimerEvent: {}
+[16.244126] (-) TimerEvent: {}
+[16.344419] (-) TimerEvent: {}
+[16.444813] (-) TimerEvent: {}
+[16.545109] (-) TimerEvent: {}
+[16.645406] (-) TimerEvent: {}
+[16.745726] (-) TimerEvent: {}
+[16.846018] (-) TimerEvent: {}
+[16.946314] (-) TimerEvent: {}
+[17.046587] (-) TimerEvent: {}
+[17.146874] (-) TimerEvent: {}
+[17.247161] (-) TimerEvent: {}
+[17.347466] (-) TimerEvent: {}
+[17.447786] (-) TimerEvent: {}
+[17.548118] (-) TimerEvent: {}
+[17.648429] (-) TimerEvent: {}
+[17.748797] (-) TimerEvent: {}
+[17.849107] (-) TimerEvent: {}
+[17.949401] (-) TimerEvent: {}
+[18.049713] (-) TimerEvent: {}
+[18.150461] (-) TimerEvent: {}
+[18.251342] (-) TimerEvent: {}
+[18.352219] (-) TimerEvent: {}
+[18.453150] (-) TimerEvent: {}
+[18.553883] (-) TimerEvent: {}
+[18.654772] (-) TimerEvent: {}
+[18.755366] (-) TimerEvent: {}
+[18.855685] (-) TimerEvent: {}
+[18.956022] (-) TimerEvent: {}
+[19.056339] (-) TimerEvent: {}
+[19.156647] (-) TimerEvent: {}
+[19.256932] (-) TimerEvent: {}
+[19.357217] (-) TimerEvent: {}
+[19.457473] (-) TimerEvent: {}
+[19.557753] (-) TimerEvent: {}
+[19.658077] (-) TimerEvent: {}
+[19.758330] (-) TimerEvent: {}
+[19.858630] (-) TimerEvent: {}
+[19.958960] (-) TimerEvent: {}
+[20.059329] (-) TimerEvent: {}
+[20.159689] (-) TimerEvent: {}
+[20.195595] (ov2slam) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libov2slam.so\x1b[0m\n'}
+[20.259845] (-) TimerEvent: {}
+[20.360131] (-) TimerEvent: {}
+[20.460550] (-) TimerEvent: {}
+[20.560831] (-) TimerEvent: {}
+[20.661178] (-) TimerEvent: {}
+[20.761464] (-) TimerEvent: {}
+[20.861805] (-) TimerEvent: {}
+[20.962096] (-) TimerEvent: {}
+[21.062488] (-) TimerEvent: {}
+[21.162845] (-) TimerEvent: {}
+[21.263228] (-) TimerEvent: {}
+[21.363698] (-) TimerEvent: {}
+[21.464040] (-) TimerEvent: {}
+[21.564344] (-) TimerEvent: {}
+[21.664675] (-) TimerEvent: {}
+[21.764976] (-) TimerEvent: {}
+[21.865282] (-) TimerEvent: {}
+[21.965567] (-) TimerEvent: {}
+[22.065857] (-) TimerEvent: {}
+[22.166160] (-) TimerEvent: {}
+[22.266547] (-) TimerEvent: {}
+[22.366962] (-) TimerEvent: {}
+[22.467315] (-) TimerEvent: {}
+[22.567671] (-) TimerEvent: {}
+[22.626756] (ov2slam) StdoutLine: {'line': b'[ 89%] Built target ov2slam\n'}
+[22.641386] (ov2slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ov2slam_node\x1b[0m\n'}
+[22.667790] (-) TimerEvent: {}
+[22.674888] (ov2slam) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable ov2slam_node\x1b[0m\n'}
+[22.767944] (-) TimerEvent: {}
+[22.868316] (-) TimerEvent: {}
+[22.968688] (-) TimerEvent: {}
+[23.069075] (-) TimerEvent: {}
+[23.169455] (-) TimerEvent: {}
+[23.202288] (ov2slam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405\n'}
+[23.269557] (-) TimerEvent: {}
+[23.369849] (-) TimerEvent: {}
+[23.470175] (-) TimerEvent: {}
+[23.570531] (-) TimerEvent: {}
+[23.670945] (-) TimerEvent: {}
+[23.771276] (-) TimerEvent: {}
+[23.871547] (-) TimerEvent: {}
+[23.914909] (ov2slam) StdoutLine: {'line': b'[100%] Built target ov2slam_node\n'}
+[23.927533] (ov2slam) CommandEnded: {'returncode': 0}
+[23.928514] (ov2slam) JobProgress: {'identifier': 'ov2slam', 'progress': 'install'}
+[23.929449] (ov2slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/imr/ws-for-ov2slam/build/ov2slam'], 'cwd': '/home/imr/ws-for-ov2slam/build/ov2slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'imr'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/home/imr/jauremax_ros2/install/teleop_twist_joy/lib:/home/imr/ros2_ws/install/realsense2_camera/lib:/home/imr/ros2_ws/install/realsense2_camera_msgs/lib:/home/imr/ws-for-ov2slam/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/install/ov2slam/lib:/home/imr/ws-for-ov2slam/install/kobuki_node/lib:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy/lib:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/imr'), ('OLDPWD', '/home/imr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imr/ws-for-ov2slam/install:/home/imr/ros2_ws/install:/home/imr/jauremax_ros2/install:/home/imr/install:/home/imr/ws-for-ov2slam/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'imr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/imr/ws-for-ov2slam/src/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'imr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/imr/ws-for-ov2slam/src/install/librealsense2/bin:/opt/ros/humble/bin:/home/imr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/imr-NUC7i5BNH:@/tmp/.ICE-unix/2342,unix/imr-NUC7i5BNH:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7dc9bf28_9fb0_4b68_b5f6_c2fccfa538d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PUZ572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imr/ws-for-ov2slam/build/ov2slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/imr/jauremax_ros2/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/imr/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/install/controller_launcher/lib/python3.10/site-packages:/home/imr/ws-for-ov2slam/src/install/controller_launcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'cs_CZ.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imr/ros2_ws/install/realsense2_description:/home/imr/ros2_ws/install/realsense2_camera:/home/imr/ros2_ws/install/realsense2_camera_msgs:/home/imr/ws-for-ov2slam/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/install/ov2slam:/home/imr/ws-for-ov2slam/install/kobuki_node:/home/imr/ws-for-ov2slam/src/install/librealsense2:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/jauremax_ros2/install/teleop_twist_joy:/home/imr/jauremax_ros2/install/kobuki_node:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble')]), 'shell': False}
+[23.938437] (ov2slam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[23.938724] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include/\n'}
+[23.938932] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_manager.hpp\n'}
+[23.939054] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//slam_params.hpp\n'}
+[23.939168] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_calibration.hpp\n'}
+[23.939378] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ros_visualizer.hpp\n'}
+[23.939578] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_extractor.hpp\n'}
+[23.939677] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//visual_front_end.hpp\n'}
+[23.939784] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//logger.hpp\n'}
+[23.939880] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//mapper.hpp\n'}
+[23.939984] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//multi_view_geometry.hpp\n'}
+[23.940080] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//profiler.hpp\n'}
+[23.940175] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_visualizer.hpp\n'}
+[23.940293] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization\n'}
+[23.940396] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization\n'}
+[23.940514] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp\n'}
+[23.940631] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3_param_block.hpp\n'}
+[23.940774] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/intrinsic_param_block.hpp\n'}
+[23.940873] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/inverse_depth_param_block.hpp\n'}
+[23.940970] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/pointxyz_param_block.hpp\n'}
+[23.941066] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization.hpp\n'}
+[23.941162] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_point.hpp\n'}
+[23.941267] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ov2slam.hpp\n'}
+[23.941371] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//loop_closer.hpp\n'}
+[23.941467] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_tracker.hpp\n'}
+[23.941563] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//frame.hpp\n'}
+[23.941659] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//optimizer.hpp\n'}
+[23.941754] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//estimator.hpp\n'}
+[23.941850] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/lib/libov2slam.so\n'}
+[23.971650] (-) TimerEvent: {}
+[24.002383] (ov2slam) StdoutLine: {'line': b'-- Set runtime path of "/home/imr/ws-for-ov2slam/install/ov2slam/lib/libov2slam.so" to ""\n'}
+[24.003750] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/lib/ov2slam/ov2slam_node\n'}
+[24.023638] (ov2slam) StdoutLine: {'line': b'-- Set runtime path of "/home/imr/ws-for-ov2slam/install/ov2slam/lib/ov2slam/ov2slam_node" to ""\n'}
+[24.023843] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/package_run_dependencies/ov2slam\n'}
+[24.023913] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/parent_prefix_path/ov2slam\n'}
+[24.024130] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.sh\n'}
+[24.024391] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.dsv\n'}
+[24.024591] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.sh\n'}
+[24.024755] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.dsv\n'}
+[24.024914] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.bash\n'}
+[24.025102] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.sh\n'}
+[24.025210] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.zsh\n'}
+[24.025356] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.dsv\n'}
+[24.025545] (ov2slam) StdoutLine: {'line': b'-- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.dsv\n'}
+[24.025643] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/packages/ov2slam\n'}
+[24.025740] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig.cmake\n'}
+[24.025837] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig-version.cmake\n'}
+[24.025933] (ov2slam) StdoutLine: {'line': b'-- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.xml\n'}
+[24.027433] (ov2slam) CommandEnded: {'returncode': 0}
+[24.044105] (ov2slam) JobEnded: {'identifier': 'ov2slam', 'rc': 0}
+[24.044901] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+[0.034s] Invoking command in '/home/imr/ws-for-ov2slam/build/ov2slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/ov2slam -- -j4 -l4
+[0.314s] [ 89%] Built target ov2slam
+[0.363s] [100%] Built target ov2slam_node
+[0.848s] Invoked command in '/home/imr/ws-for-ov2slam/build/ov2slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --build /home/imr/ws-for-ov2slam/build/ov2slam -- -j4 -l4
+[0.851s] Invoking command in '/home/imr/ws-for-ov2slam/build/ov2slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/ov2slam
+[0.863s] -- Install configuration: "Release"
+[0.863s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include/
+[0.863s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_manager.hpp
+[0.863s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//slam_params.hpp
+[0.863s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_calibration.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ros_visualizer.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_extractor.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//visual_front_end.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//logger.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//mapper.hpp
+[0.864s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//multi_view_geometry.hpp
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//profiler.hpp
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//camera_visualizer.hpp
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3left_parametrization.hpp
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/se3_param_block.hpp
+[0.865s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/intrinsic_param_block.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/inverse_depth_param_block.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization/pointxyz_param_block.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ceres_parametrization/ceres_parametrization.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//map_point.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//ov2slam.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//loop_closer.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//feature_tracker.hpp
+[0.866s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//frame.hpp
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//optimizer.hpp
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/include//estimator.hpp
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/lib/libov2slam.so
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/lib/ov2slam/ov2slam_node
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/package_run_dependencies/ov2slam
+[0.867s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/parent_prefix_path/ov2slam
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.sh
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/ament_prefix_path.dsv
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.sh
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/environment/path.dsv
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.bash
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.sh
+[0.868s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.zsh
+[0.869s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/local_setup.dsv
+[0.869s] -- Installing: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.dsv
+[0.869s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ament_index/resource_index/packages/ov2slam
+[0.869s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig.cmake
+[0.869s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/cmake/ov2slamConfig-version.cmake
+[0.869s] -- Up-to-date: /home/imr/ws-for-ov2slam/install/ov2slam/share/ov2slam/package.xml
+[0.871s] Invoked command in '/home/imr/ws-for-ov2slam/build/ov2slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/home/imr/ws-for-ov2slam/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/controller_launcher:/home/imr/ws-for-ov2slam/src/install/teleop_twist_joy:/home/imr/ws-for-ov2slam/src/install/kobuki_node:/opt/ros/humble /usr/bin/cmake --install /home/imr/ws-for-ov2slam/build/ov2slam
