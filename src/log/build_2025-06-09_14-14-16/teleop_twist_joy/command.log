@@ -1,1 +1,0 @@
-Invoking command in '/home/imr/jauremax_ros2/src/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/imr/jauremax_ros2/install/controller_launcher:/home/imr/install/controller_launcher:/opt/ros/humble /usr/bin/cmake /home/imr/jauremax_ros2/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/imr/jauremax_ros2/src/install/teleop_twist_joy
